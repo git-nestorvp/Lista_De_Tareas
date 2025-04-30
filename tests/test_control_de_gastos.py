@@ -1,10 +1,7 @@
 import sys
 import os
-
-# Esto agrega la carpeta principal del proyecto al PATH
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-# Ahora puedes importar las clases
 from control_de_gastos import ControlDeGastos
 
 def test_agregar_gasto():
